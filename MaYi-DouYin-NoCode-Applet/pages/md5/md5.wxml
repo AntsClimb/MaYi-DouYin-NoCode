@@ -1,0 +1,7 @@
+<view class="wrap">
+    <!-- <ad unitId="adunit-aa47148441f3a244"></ad> -->
+    <video controls class="video-box" src="{{dataUrl}}"></video>
+    <button bindgetuserinfo="postUpload" class="parsing" openType="getUserInfo">上传视频</button>
+    <button bindtap="clearMd5" class="parsing go-back" wx:if="{{showFlag}}">去除MD5</button>
+    <!-- <ad unitId="adunit-da32b7d1121377b2"></ad> -->
+</view>
